@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7dc66901ca55af19c9d238ccf7431574",
+    "content-hash": "7b465f0388a1da918e1dd78113da5f38",
     "packages": [
         {
             "name": "brick/math",
@@ -892,6 +892,79 @@
                 }
             ],
             "time": "2022-06-20T21:43:11+00:00"
+        },
+        {
+            "name": "kodepandai/laravel-rajaongkir",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kodepandai/laravel-rajaongkir.git",
+                "reference": "8c831a6770dc5c8265544514da3d6ad6e3b5f638"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kodepandai/laravel-rajaongkir/zipball/8c831a6770dc5c8265544514da3d6ad6e3b5f638",
+                "reference": "8c831a6770dc5c8265544514da3d6ad6e3b5f638",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "^8|^9",
+                "illuminate/support": "^8|^9",
+                "php": "^8"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.15|^7",
+                "pestphp/pest": "^1.21",
+                "pestphp/pest-plugin-laravel": "^1.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kodepandai\\LaravelRajaOngkir\\Provider\\RajaOngkirServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kodepandai\\LaravelRajaOngkir\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tio",
+                    "email": "sangvictim@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Akhmad",
+                    "email": "axmad386@gmail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "RajaOngkir wrapper for Laravel",
+            "homepage": "https://github.com/kodepandai/laravel-rajaongkir",
+            "keywords": [
+                "kodepandai",
+                "laravel",
+                "laravel-rajaongkir",
+                "rajaongkir"
+            ],
+            "support": {
+                "issues": "https://github.com/kodepandai/laravel-rajaongkir/issues",
+                "source": "https://github.com/kodepandai/laravel-rajaongkir/tree/3.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/kodepandai",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-06-06T02:18:51+00:00"
         },
         {
             "name": "laravel/framework",
