@@ -20,6 +20,8 @@ return new class extends Migration
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('CASCADE');
             $table->double('total', 8, 2);
+            $table->double('shipping_cost', 8, 2);
+            $table->double('grandtotal', 8, 2);
             $table->tinyInteger('payment_method')->default(0);
             $table->timestamps();
         });

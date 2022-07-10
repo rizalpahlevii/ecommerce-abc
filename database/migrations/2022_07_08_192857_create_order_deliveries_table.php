@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('service_name');
             $table->string('service_description');
             $table->string('cost_value');
-            $table->string('ets');
+            $table->string('etd');
             $table->timestamps();
         });
     }

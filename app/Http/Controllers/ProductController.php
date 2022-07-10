@@ -9,10 +9,13 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $product = Product::latest()->paginate(10);
+        $products = Product::latest()->paginate(9);
+        return view('pages.products.index', compact('products'));
     }
 
-    public function show(Product $product)
+    public function show($productId)
     {
+        $product = Product::find($productId);
+        return view('pages.products.show', compact('product'));
     }
 }
